@@ -1,0 +1,17 @@
+
+
+#all-body {
+
+}
+#first-col{
+max-width: 25%;
+display: flex;
+background-color: red;
+padding-left: 10px ;
+padding-right: 10px ;
+}
+#sec-col  {
+  max-width: 75%;
+  display: flex;
+  color: lightgrey;
+}
