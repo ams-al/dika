@@ -10,8 +10,16 @@ background-color: red;
 padding-left: 10px ;
 padding-right: 10px ;
 }
+#left-menu {
+
+}
 #sec-col  {
   max-width: 75%;
   display: flex;
   color: lightgrey;
 }
+.produkte-3column {
+  }
+.column-left{ float: left; width: 33.333%; }
+.column-right{ float: right; width: 33.333%; }
+.column-center{ display: inline-block; width: 33.333%; }
