@@ -1,31 +1,85 @@
 body,h1,h2,h3,h4,h5 {
 	font-family: "Poppins", sans-serif;
 }
+h1 {
+	font-size: 28px;
+	margin-left: 0;
+	padding: 0;
+}
 body {
 	font-size:16px;
+	margin: 0;
 }
 
 #all-body {
 
 }
 #first-col{
-max-width: 25%;
-display: flex;
+max-width: 22%;
+display: inline-block;
+position: fixed;
 background-color: red;
 padding-left: 10px ;
 padding-right: 10px ;
+min-height: 100%;
 }
 #left-menu {
 
 }
 #sec-col  {
-  max-width: 75%;
-  display: flex;
+  max-width: 70%;
+  display: inline-inline-block;
+	float:right;
   color: lightgrey;
+	padding: 20px 50px 0px 30px;
+}
+#kontakte {
+
+}
+#paketat {
+
+}
+#prezantim {
+
+}
+#sherbime {
+
+}
+#produkte {
+
+}
+.menuPadding {
+	padding: 20px 20px 0px 20px;
+}
+.menuPaddings {
+ 0px 30px 0px 20px;
+}
+.produkte {
+
 }
 .produkte-3column {
   }
-.column-left{ float: left; width: 33.333%; }
-.column-right{ float: right; width: 33.333%; }
-.column-center{ display: inline-block; width: 33.333%; }
+.column-left {
+	float: left; width: 33.333%;
+}
+.column-right {
+	float: right; width: 33.333%;
+}
+.column-center {
+	display: inline-block; width: 33.333%;
+}
+.column-leftPackages {
+	float: left; width: 50%;
+}
+.column-rightPackages {
+	float: right; width: 50%;
+}
+.packagesButton {
 
+}
+.img3column {
+	width: 200px;
+}
+.contactForm {
+
+}
