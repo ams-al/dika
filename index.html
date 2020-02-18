@@ -13,16 +13,17 @@
 <meta name="keywords" content="Troje; Apartamente, Shtëpi, Vila, Ambjente për Biznese dhe Shërbime">
 <meta name="autor" content="AM">
 <meta name="google-site-verification" content=""/>
-<link rel="canonical" href="http://dikarealestate.al/">
-<link rel="alternate" href="http://dikarealestate.al/" hreflang="x-default"/>
+<link rel="canonical" href="https://dikarealestate.al/">
+<link rel="alternate" href="httsp://dikarealestate.al/" hreflang="x-default"/>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
 <!-- Sidebar/menu -->
 <div id="first-col">
-    <h1 class="menuPadding">DIKA Real Estate "Shitje & Blerje"</h1>
-    <ul id="left-menu" class="menuPaddings">
+  <ul id="left-menu" class="menuPaddings">
+<a href="https://dikarealestate.al/"><img class="logo" src="img/logo.png" width="150px;"
+  alt="DIKA Real Estate - Shitje & Blerje"></a>
       <li><a href="index.html">Fillimi</a></li>
       <li><a href="#prezantim">Prezantim</a></li>
       <li><a href="#sherbime">Shërbime</a></li>
@@ -35,18 +36,28 @@
 <div id="sec-col">
 <!--Section1/Prezantim-->
     <div id="prezantim">
+      <h2 class="headerTitle">DIKA Real Estate - Shitje & Blerje</h2>
       <h1>Prezantim</h1>
-      <h2>Prona në shitje.</h2>
-      <img src="images\atrium.jpg" width="203px">
-      <img src="images\bedroom.jpg" width="300px">
-      <img src="images\diningroom.jpg" width="300px">
-      <img src="images\kitchenconcrete.jpg" width="203px">
-      <img src="images\livingroom.jpg" width="300px">
-      <img src="images\livingroom2.jpg" width="300px">
+      <hr class="hr round">
+      <br>
+      <!--PhotoShowccase-->
+    <div class="row-PhotoShowccase">
+       <div class="row-PhotoShowccase-half">
+      <img src="images\atrium.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="images\bedroom.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="images\diningroom.jpg" style="width:100%" onclick="onClick(this)">
+        </div>
+        <div class="row-PhotoShowccase-half" style="width:100%" onclick="onClick(this)">
+      <img src="images\kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="images\livingroom.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="images\livingroom2.jpg" style="width:100%" onclick="onClick(this)">
+        </div>
+    </div>
     </div><!--EndOf/Section1/Prezantim-->
 <!--Section2/Shërbime-->
 <div id="sherbime">
   <h1>Shërbime</h1>
+  <hr class="hr round">
   <p>We are a interior design service that focus on what's best for your home and what's best for you!
   Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit,
   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -59,6 +70,7 @@
 <!--Section3/Produkte-->
 <div id="produkte">
   <h1>Produkte</h1>
+  <hr class="hr round">
   <p>The best team in the world. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
   labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
   ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
@@ -88,12 +100,14 @@
         <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p></div>
       </div>
   </div><!--EndOf/Section3/Produkte-->
-    <div id="paketat">
+  <!--Section4/Paketat-->
+  <div id="paketat">
           <h1>Paketat</h1>
+          <hr class="hr round">
           <p> Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
             commodo consequat. Duis aute irure.</p>
-      <div class="column-leftPackages">
+  <div class="column-leftPackages">
       <ul>
         <li>Basic</li>
         <li>Floorplanning</li>
@@ -116,9 +130,11 @@
         <li>€ 249/per room</li
         <button class="packagesButton"><a href="#"Sign up</button><a/>
       </ul>
-  </div>
+</div><!--EndOf/Section3/Paketat-->
+<!--Section4/Kontakte-->
   <div id="kontakte">
     <h1>Kontakte</h1>
+    <hr class="hr round">
     <p>Do you want us to style your home? Fill out the form and fill
       me in with the details :) We love meeting new people!</p>
     <form class="contactForm">
@@ -127,7 +143,7 @@
           <input type="text"placeholder="Message">
           <button type="submit">Message</button>
     </form>
-  </div>
+  </div><!--EndOf/Section3/Kontakte-->
 <!--FinishOf Everything-->
 </body>
 </html>

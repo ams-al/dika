@@ -1,21 +1,27 @@
-body,h1,h2,h3,h4,h5 {
+html,
+body {
+	font-family: Verdana, sans-serif;
+	line-height: 1.5;
+	font-size:18px;
+	margin: 0;
+}
+h2,h3,h4,h5 {
 	font-family: "Poppins", sans-serif;
 }
-h1 {
-	font-size: 28px;
-	margin-left: 0;
-	padding: 0;
+p {
+	color: black;
 }
-body {
-	font-size:16px;
-	margin: 0;
+h1 {
+	font-size: 35px;
+	color: red;
+	margin: 0px;
 }
 
 #all-body {
 
 }
 #first-col{
-max-width: 22%;
+max-width: 25%;
 display: inline-block;
 position: fixed;
 background-color: red;
@@ -27,11 +33,11 @@ min-height: 100%;
 
 }
 #sec-col  {
-  max-width: 70%;
+  max-width: 73%;
   display: inline-inline-block;
 	float:right;
   color: lightgrey;
-	padding: 20px 50px 0px 30px;
+	padding: 0px 40px 0px 30px;
 }
 #kontakte {
 
@@ -82,4 +88,30 @@ min-height: 100%;
 }
 .contactForm {
 
+}
+.logo {
+	margin: 20px 50px 10px 0px;
+	position: left;
+	opacity: 70%;
+}
+.headerTitle {
+	font-size: 44px!important;
+	padding:0px;
+	color: #630400;
+	margin-bottom: 0px;
+}
+.hr {
+	width:50px;border:2px solid red; box-sizing: content-box;	position: absolute; height: 0;overflow: visible;
+}
+.round {
+	  border-radius: 4px;
+}
+.row-PhotoShowccase {
+	padding: 0 8px;
+}
+.row-PhotoShowccase-half {
+	float: left;
+	width: 100%;
+	width: 49.99999%;
+	padding: 0 8px
 }
