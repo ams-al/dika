@@ -17,6 +17,7 @@
 <link rel="alternate" href="httsp://dikarealestate.al/" hreflang="x-default"/>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <!-- Sidebar/menu -->
@@ -40,20 +41,30 @@
       <h1>Prezantim</h1>
       <hr class="hr round">
       <br>
-      <!--PhotoShowccase-->
-    <div class="row-PhotoShowccase">
-       <div class="row-PhotoShowccase-half">
-      <img src="images\atrium.jpg" style="width:100%" onclick="onClick(this)">
-      <img src="images\bedroom.jpg" style="width:100%" onclick="onClick(this)">
-      <img src="images\diningroom.jpg" style="width:100%" onclick="onClick(this)">
-        </div>
-        <div class="row-PhotoShowccase-half" style="width:100%" onclick="onClick(this)">
-      <img src="images\kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)">
-      <img src="images\livingroom.jpg" style="width:100%" onclick="onClick(this)">
-      <img src="images\livingroom2.jpg" style="width:100%" onclick="onClick(this)">
-        </div>
+<!--PhotoShowccase-->
+  <!-- Photo grid (modal) -->
+  <div class="row-PhotoShowccase">
+    <div class="row-PhotoShowccase-half">
+      <img src="images/kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+      <img src="images/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      <img src="images/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
     </div>
-    </div><!--EndOf/Section1/Prezantim-->
+    <div class="row-PhotoShowccase-half">
+      <img src="images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
+      <img src="images/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
+      <img src="images/livingroom2.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
+    </div>
+  </div>
+  <!-- Full size images on click-->
+  <div id="modal01" class="PhotoShowccase-modal PhotoShowcase-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="PhotoShowc-button PhotoShowc-black PhotoShowc-xxlarge PhotoShowc-display-topright">&times;</span>
+    <div class="PhotoShowc-modal-content PhotoShowc-animate-zoom PhotoShowc-center PhotoShowc-transparent PhotoShowc-padding-666">
+      <img id="img01" class="PhotoShowc-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+<!--EndOf/Section1/Prezantim-->
+  <!-- Services -->    
 <!--Section2/Shërbime-->
 <div id="sherbime">
   <h1>Shërbime</h1>
@@ -115,8 +126,8 @@
         <li>Photography</li>
         <li>20% furniture discount</li>
         <li>Good deals</li>
-        <li>€ 199/per room</li
-        <button class="packagesButton"><a href="#"Sign up</button><a/>
+        <li>€ 199/per room</li>
+        <button class="packagesButton"><a href="#">Sign up></button><a/>
       </ul>
       </div>
       <div class="column-rightPackages">
@@ -127,8 +138,8 @@
         <li>Photography</li>
         <li>50% furniture discount</li>
         <li>Good deals</li>
-        <li>€ 249/per room</li
-        <button class="packagesButton"><a href="#"Sign up</button><a/>
+        <li>€ 249/per room</li>
+        <button class="packagesButton"><a href="#">Sign up></button><a/>
       </ul>
 </div><!--EndOf/Section3/Paketat-->
 <!--Section4/Kontakte-->
@@ -145,5 +156,12 @@
     </form>
   </div><!--EndOf/Section3/Kontakte-->
 <!--FinishOf Everything-->
+<script>
+  var Lumenbox = new Lumenbox({
+    enableKeyboardNavigation: true,
+    showCounter: true
+  });
+</script>
+<script src="js/script.js"></script>
 </body>
 </html>

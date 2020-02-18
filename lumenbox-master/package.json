@@ -1,0 +1,31 @@
+{
+  "name": "lumenbox",
+  "version": "1.1.4",
+  "author": "Dragos V. Damian <dragosvdamian@gmail.com>",
+  "description": "Javascript library for image overlays.",
+  "contributors": [
+    "Bogdana M. Damian <bogdanamonica@gmail.com>"
+  ],
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stealther23/lumenbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stealther23/lumenbox/issues"
+  },
+  "main": "./dist/js/lumenbox.js",
+  "keywords": [
+    "image",
+    "gallery",
+    "overlay",
+    "slideshow"
+  ],
+  "devDependencies": {
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5"
+  }
+}
